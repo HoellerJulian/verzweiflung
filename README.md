@@ -1,2 +1,5 @@
-# verzweiflung
-Code fragments for an exam
+code fragments for exam
+
+# Verzweiflung, Substantiv, feminin
+## Bedeutung:   
+Zustand völliger Hoffnungslosigkeit
