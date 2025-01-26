@@ -4,3 +4,5 @@ code fragments for exam
 Substantiv, feminin
 ## Bedeutung:   
 Zustand völliger Hoffnungslosigkeit
+
+

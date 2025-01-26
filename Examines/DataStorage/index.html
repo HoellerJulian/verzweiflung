@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html id="60">
+
+
+
+<body>
+
+<div id="1">Frag</div>
+<div id="2">Frag</div>
+<div class="2">Brag</div>
+
+
+
+<input id="data"></input>
+<button id = "input" onclick="inStorage()">Put into Local Storage</button>
+<button id = "inputj" onclick="inStorageJSON()">Put into Local Storage(JSON)</button>
+<button id = "output" onclick="outStorage()">Retrieve from Local Storage</button>
+<button id = "outputj" onclick="outStorageJSON()">Retrieve from Local Storage</button>
+
+<div id = "field"></div>
+
+
+<input id="data1"></input>
+<button id = "input1" onclick="inStorage1()">Put into Local DB</button>
+<button id = "output1" onclick="outStorage1()">Retrieve from Local DB</button>
+<div id = "field1"></div>
+
+
+</body>
+
+<img src="eventloop.png" style="scale: 0.5; display: inline-block; align-self: left;">
+
+
+<div id="grandparent" style="background-color:lightblue;">
+    Grandparent
+    <div id="parent" style="background-color:lightcoral;">
+    Parent
+    <div id="child" style="background-color:lightgreen;">
+    Child
+    </div>
+    </div>
+    </div>
+
+<form id ="form">
+<input id="5" required pattern="password"></input>
+<button id = "7">Submit</button>
+</form>
+
+<script src="main.js"></script>
+
+</html>
