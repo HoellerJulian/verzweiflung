@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src ="clipboard.js"></script>
+  <title>Copy Code Snippet</title>
+  <style>
+    #codeSnippet {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 10px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      border-radius: 5px;
+      overflow-x: auto;
+      max-width: 100%;
+      user-select: none;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Copy Code Snippet Example</h1>
+  <!---important bits-->
+  <pre id="codeSnippet">
+    <code>
+      const hello = "Hello, World!";
+      console.log(hello);
+    </code>
+  </pre>
+  <button id="copyButton">Copy Code</button>
+  <!---important bits-->
+</body>
+</html>

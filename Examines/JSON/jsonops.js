@@ -10,6 +10,12 @@ fetch("https://raw.githubusercontent.com/Lemmings19/dnd-racial-slurs/refs/heads/
     (data) => {return JSON.parse(data)}).then(
     (parsed) => {console.log(parsed[0])})
 
+    val 
+
+    Promise.resolve().then{
+        () => {}
+    }
+
 }
 
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src = "canvas.js"></script>
+  <title>Freehand Drawing with Canvas</title>
+  <style>
+    canvas {
+      border: 1px solid #000;
+      cursor: crosshair;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <label>
+      <input type="radio" name="color" value="black" checked> Black
+    </label>
+    <label>
+      <input type="radio" name="color" value="red"> Red
+    </label>
+    <label>
+      <input type="radio" name="color" value="green"> Green
+    </label>
+    <label>
+      <input type="radio" name="color" value="blue"> Blue
+    </label>
+    <label>
+        <input type="button" name="color" value="drawrect" id="drawrect"> Black
+    </label>
+    <label>
+        <input type="button" name="color" value="drawcircle" id="drawcircle"> Black
+    </label>
+    <label>
+        <input type="button" name="color" value="drawpath" id="drawpath"> Black
+    </label>
+  </div>
+
+  <canvas id="drawingCanvas" width="600" height="400"></canvas>
+</body>
+</html>
