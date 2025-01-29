@@ -1,4 +1,4 @@
-function submity(){
+function submity(event){
     var a = []
     a[0] = document.getElementById("a").value
     a[1] = document.getElementById("b").value

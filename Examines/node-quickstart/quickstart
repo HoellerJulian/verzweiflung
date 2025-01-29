@@ -1,0 +1,7 @@
+npm init -y
+# npm install typescript @types/node
+# npm install -g typescript
+# npx tsc --target es2022 --skipLibCheck hello.ts (es2022)
+
+# node =>js
+# npx tsc 
